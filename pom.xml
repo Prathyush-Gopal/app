@@ -18,15 +18,15 @@
   <distributionManagement>
 		<!-- Publish the versioned releases here aa -->
 		<repository>
-			<id>popcorn</id>
-			<name>popcorn</name>
+			<id>libs-release</id>
+			<name>maven-2-default</name>
 			<url>http://localhost:8081/artifactory/libs-release-local/</url>
 		</repository>
 
 		<!-- Publish the versioned releases here -->
 		<snapshotRepository>
-			<id>popcorn</id>
-			<name>popcorn</name>
+			<id>libs-snapshot</id>
+			<name>maven-2-default</name>
 			<url>http://localhost:8081/artifactory/libs-snapshot-local/</url>
 		</snapshotRepository>
 	</distributionManagement>
