@@ -18,15 +18,15 @@
   <distributionManagement>
 		<!-- Publish the versioned releases here aa -->
 		<repository>
-			<id>libs-release</id>
-			<name>maven-2-default</name>
+			<id>app</id>
+			<name>app</name>
 			<url>http://localhost:8081/artifactory/libs-release-local/</url>
 		</repository>
 
 		<!-- Publish the versioned releases here -->
 		<snapshotRepository>
-			<id>libs-snapshot</id>
-			<name>maven-2-default</name>
+			<id>app</id>
+			<name>app</name>
 			<url>http://localhost:8081/artifactory/libs-snapshot-local/</url>
 		</snapshotRepository>
 	</distributionManagement>
